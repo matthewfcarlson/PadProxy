@@ -1,0 +1,43 @@
+# PlatformIO
+firmware/.pio/
+firmware/.vscode/
+firmware/lib/
+firmware/.pioenvs/
+firmware/.piolibdeps/
+
+# Build artifacts
+*.o
+*.a
+*.elf
+*.bin
+*.hex
+*.map
+
+# KiCad
+pcb/*-backups/
+pcb/*.kicad_prl
+pcb/fp-info-cache
+pcb/*-bak
+pcb/_autosave-*
+pcb/*.bak
+
+# FreeCAD
+case/*.FCStd1
+case/*.FCBak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Python (for any scripts)
+__pycache__/
+*.pyc
+.env
+venv/
